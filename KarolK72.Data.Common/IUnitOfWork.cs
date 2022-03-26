@@ -10,11 +10,11 @@ namespace KarolK72.Data.Common
     {
         T Work { get; }
         /// <summary>
-        /// Synchronous save operation on the DbContext.
+        /// Synchronous save operation
         /// </summary>
         void Save();
         /// <summary>
-        /// Asynchronous save operation on the DbContext.
+        /// Asynchronous save operation
         /// </summary>
         Task SaveAsync();
     }
